@@ -26,6 +26,14 @@
             About
           </router-link>
         </li>
+        <li>
+          <router-link
+            :to="{ name: 'NasaApod' }"
+            class="btn text-success lighten-30 selectable text-uppercase"
+          >
+            NASA A.P.O.D
+          </router-link>
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <Login />
