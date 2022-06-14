@@ -28,7 +28,7 @@
         </li>
         <li>
           <router-link
-            :to="{ name: 'NasaApod' }"
+            :to="{ name: 'NasaApodPage' }"
             class="btn text-success lighten-30 selectable text-uppercase"
           >
             NASA A.P.O.D

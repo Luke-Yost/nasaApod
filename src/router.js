@@ -17,9 +17,9 @@ const routes = [
     component: loadPage('AboutPage')
   },
   {
-    path: '/nasaApod',
-    name: 'NasaApod',
-    component: loadPage('NasaApod')
+    path: '/NasaApodPage',
+    name: 'NasaApodPage',
+    component: loadPage('NasaApodPage')
   },
   {
     path: '/account',
